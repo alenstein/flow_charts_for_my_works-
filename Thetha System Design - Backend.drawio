@@ -1,0 +1,99 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="rmlNakI2FwPZYEmfvwKH">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Audio Module" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="8" y="8" width="1054" height="316" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Audio File Upload" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="2">
+          <mxGeometry x="43" y="46" width="984" height="241" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Upload Audio File" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="3">
+          <mxGeometry x="58" y="58" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Convert Audio Format" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="3">
+          <mxGeometry x="298" y="43" width="171" height="171" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Transcribe Audio" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="3">
+          <mxGeometry x="570" y="62" width="133" height="133" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Get Transcription" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="3">
+          <mxGeometry x="803" y="59" width="139" height="139" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="3" source="4" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="3" source="5" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="10" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="3" source="6" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" value="User Module" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="132" y="374" width="806" height="505" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="Authentication &amp; Profile Management" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="11">
+          <mxGeometry x="43" y="46" width="736" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="Authenticate User" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="12">
+          <mxGeometry x="58" y="125" width="145" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="Create Profile" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="12">
+          <mxGeometry x="361" y="43" width="115" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="View Profile" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="12">
+          <mxGeometry x="368" y="213" width="101" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="Update Profile" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="12">
+          <mxGeometry x="576" y="121" width="118" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="Delete Profile" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="12">
+          <mxGeometry x="578" y="290" width="114" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="Success" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.18;entryX=0;entryY=0.5;" edge="1" parent="12" source="13" target="14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="282" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19" value="Success" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.51;entryX=0;entryY=0.27;" edge="1" parent="12" source="13" target="15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="282" y="201" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="20" value="Fail" style="curved=1;startArrow=none;endArrow=block;exitX=0.92;exitY=1;entryX=0;entryY=0.92;" edge="1" parent="12" source="13" target="15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="282" y="377" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.11;entryX=0;entryY=0.5;" edge="1" parent="12" source="15" target="16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="526" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.89;entryX=0;entryY=0.5;" edge="1" parent="12" source="15" target="17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="526" y="346" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
