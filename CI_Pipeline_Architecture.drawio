@@ -74,7 +74,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6gt3Byaq1zr022_DPQPy-12" value="Container Service" style="whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
+        <mxCell id="6gt3Byaq1zr022_DPQPy-12" value="Docker Container Service" style="whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="740" y="210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6gt3Byaq1zr022_DPQPy-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6gt3Byaq1zr022_DPQPy-14" target="6gt3Byaq1zr022_DPQPy-16">
@@ -147,7 +147,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6gt3Byaq1zr022_DPQPy-34" value="Push Image to registry" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="6gt3Byaq1zr022_DPQPy-34" value="Push Image to registry&lt;br&gt;DockerHub" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="735" y="620" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6gt3Byaq1zr022_DPQPy-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6gt3Byaq1zr022_DPQPy-16" target="6gt3Byaq1zr022_DPQPy-34">
